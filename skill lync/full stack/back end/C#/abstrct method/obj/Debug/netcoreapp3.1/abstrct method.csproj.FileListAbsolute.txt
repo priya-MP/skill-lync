@@ -1,0 +1,11 @@
+C:\Users\Skills_Lync\Desktop\abstrct method\bin\Debug\netcoreapp3.1\abstrct method.exe
+C:\Users\Skills_Lync\Desktop\abstrct method\bin\Debug\netcoreapp3.1\abstrct method.deps.json
+C:\Users\Skills_Lync\Desktop\abstrct method\bin\Debug\netcoreapp3.1\abstrct method.runtimeconfig.json
+C:\Users\Skills_Lync\Desktop\abstrct method\bin\Debug\netcoreapp3.1\abstrct method.runtimeconfig.dev.json
+C:\Users\Skills_Lync\Desktop\abstrct method\bin\Debug\netcoreapp3.1\abstrct method.dll
+C:\Users\Skills_Lync\Desktop\abstrct method\bin\Debug\netcoreapp3.1\abstrct method.pdb
+C:\Users\Skills_Lync\Desktop\abstrct method\obj\Debug\netcoreapp3.1\abstrct method.csprojAssemblyReference.cache
+C:\Users\Skills_Lync\Desktop\abstrct method\obj\Debug\netcoreapp3.1\abstrct method.AssemblyInfoInputs.cache
+C:\Users\Skills_Lync\Desktop\abstrct method\obj\Debug\netcoreapp3.1\abstrct method.AssemblyInfo.cs
+C:\Users\Skills_Lync\Desktop\abstrct method\obj\Debug\netcoreapp3.1\abstrct method.dll
+C:\Users\Skills_Lync\Desktop\abstrct method\obj\Debug\netcoreapp3.1\abstrct method.pdb

@@ -1,0 +1,32 @@
+<p>users list works!</p>
+
+<input type="button" value="<" (click)="getRequest(currentPage-1)"
+[disabled]="currentPage==1" />
+<span>Page {{currentPage}} of {{totalPages}}</span>
+<input type="button" value=">" (click)="getRequest(currentPage+1)"
+[disabled]="currentPage==totalPages" />
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Avatar</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <!--arr.foreach((function(val,index){}))-->
+        <tr *ngFor="let item of usersArr">
+        <td>{{item.id}}</td>
+        <td>{{item.first_name}} {{item.last_name}}</td>
+        <td>{{item.email}}</td>
+        <td><img [src]="item.avatar" /></td>
+        </tr>
+    </tbody>
+</table>
+
+<input type="text" placeholder="name" [(ngModel)]="name" />
+<input type="text" placeholder="job" [(ngModel)]="job" />
+<input type="button" value="send POST Request" (click)="sendPostRequest()" [disabled]="name=='' || job==''" />
+<br><br><br><br>

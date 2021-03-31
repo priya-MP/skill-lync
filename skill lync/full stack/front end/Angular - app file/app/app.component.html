@@ -1,0 +1,141 @@
+welcome to Angular <br>
+{{title}}..{{counter}}
+<input type ="button" value="Increment" (click) = "IncrementVal()"/>
+<br />
+<div [style.display]="showState=='Show'?'none':'block'" [style.color]="color">
+    This is testing show/hide
+</div>
+<div *ngIf="haveElem" >this element use ngif</div>
+<input type="button" [value]="showState" (click)="showHide()" />
+<input type="button" value="Change color" (click)="changeColor()" />
+
+<input type="text" [(ngModel)]="searchTerm" />
+
+<table>
+    <thead>
+        <tr>
+            <th>Sl.No</th>
+            <th>Name</th>
+            <th>Qty</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <!--arr.foreach((function(val,index){}))-->
+        <tr *ngFor="let item of booksArr | filter:searchTerm; let i=index;">
+        <td>{{i+1}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.q}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div [ngSwitch]="emotion">
+    <div *ngSwitchCase="'happy'">Am Happy</div>
+    <div *ngSwitchCase="'sad'">Am not happy</div>
+    <div *ngSwitchCase="'confused'">Am neither happy nor sad </div>
+    <div *ngSwitchDefault>Default case. None of the emotion matched!</div>
+</div>
+
+<div [ngClass]="{cls1:haveElem,cls2:!haveElem, cls3:haveElem}">
+    Testing ng class
+</div>
+
+<div [ngStyle]="{'font-weight':haveElem?'bold':'normal','font-size':'20px'}">
+    Testing ngStyle
+</div> 
+
+<input type="radio" value="red" (click)="bgColor='red'" name="bgColor" />Red
+<input type="radio" value="blue" (click)="bgColor='blue'" name="bgColor" />Blue
+<input type="radio" value="green" (click)="bgColor='green'" name="bgColor" />Green
+
+<div appHighlight [color]="bgColor">Hover me to change background color 1</div>
+<div appHighlight [color]="bgColor" defaultColor="orange" (tellColor)="receiveColor($event)">Hover me to change background color 2</div>
+<div appHighlight [color]="bgColor" (tellColor)="receiveColor($event)">Hover me to change background color 3</div>
+
+
+<div>
+pipes :
+<ul>
+    <li>Original string: {{testStr}}</li>
+    <li>uppercase: {{testStr | uppercase}}</li>
+    <li>lowercase: {{testStr | lowercase}}</li>
+    <li>titlecase: {{testStr | titlecase}}</li>
+    <li>slice: {{testStr | slice:0:5}}</li>
+
+    <li>Original date: {{testStr}}</li>
+    <li>Date pipe: {{testDt | date:'dd-MMM-YYYY'}}</li>
+
+    <li>Original Number: {{testNum}}</li>
+    <li>Currency pipe: {{testNum | currency:'USD'}}</li>
+    <li>Percent pipe: {{testNum1 | percent}}</li>
+
+    <li>JSON pipe: {{booksArr | json}}</li>
+
+    <li>keyvalue pipe:
+        <ul>
+            <li *ngFor="let item of booksObj | keyvalue">{{item.key}} - {{item.value}}</li>
+        </ul>
+    </li>
+
+    <li>
+        custom pipe: {{testNum | multiplier:40}}
+    </li>
+</ul>
+</div>
+
+
+<div>
+    ngModel - 2way binding
+    <input type="password" [(ngModel)]="passwordStr" (input)="validatePassword()" />
+    <span [style.color]="passColor">{{passStr}}</span>
+</div>
+
+<ul>
+    <li>
+        <a routerLink="/products">Products</a>
+    </li>
+    <li>
+        <a routerLink="/inventory">Inventory</a>
+    </li>
+    <li>
+        <a routerLink="/sales/1">Sales1</a>
+    </li>
+    <li>
+        <a routerLink="/sales/2">Sales2</a>
+    </li>
+    <li>
+        <a routerLink="/sales/3">Sales3</a>
+    </li>
+    <li>
+        <a routerLink="/error">Error</a>
+    </li>
+    <li>
+        <input type="button" value="Navigate" (click)="navigateMe()" />
+    </li>
+    <li>
+        <a routerLink="/customer/add">customer/add</a>
+    </li>
+    <li>
+        <a routerLink="/customer/list">customer/list</a>
+    </li>
+    <li>
+        <a routerLink="/users/add">users/add</a>
+    </li>
+    <li>
+        <a routerLink="/users/list">users/list</a>
+    </li>
+</ul>
+
+<router-outlet></router-outlet>
+
+Loading child component 
+<app-child [booksArr] = "booksArr" [searchTerm]="searchTerm" (informParent)="receiveBook($event)">
+
+</app-child>
+<br><br><br><br><br><br>
+
+<div>
+    subject testing
+    <input type="button" (click)="incrCounter()" value="Increment" />
+</div>

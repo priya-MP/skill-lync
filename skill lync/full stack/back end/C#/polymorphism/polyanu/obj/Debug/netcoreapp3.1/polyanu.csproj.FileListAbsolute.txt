@@ -1,0 +1,11 @@
+C:\Users\Skills_Lync\Desktop\polyanu\bin\Debug\netcoreapp3.1\polyanu.exe
+C:\Users\Skills_Lync\Desktop\polyanu\bin\Debug\netcoreapp3.1\polyanu.deps.json
+C:\Users\Skills_Lync\Desktop\polyanu\bin\Debug\netcoreapp3.1\polyanu.runtimeconfig.json
+C:\Users\Skills_Lync\Desktop\polyanu\bin\Debug\netcoreapp3.1\polyanu.runtimeconfig.dev.json
+C:\Users\Skills_Lync\Desktop\polyanu\bin\Debug\netcoreapp3.1\polyanu.dll
+C:\Users\Skills_Lync\Desktop\polyanu\bin\Debug\netcoreapp3.1\polyanu.pdb
+C:\Users\Skills_Lync\Desktop\polyanu\obj\Debug\netcoreapp3.1\polyanu.csprojAssemblyReference.cache
+C:\Users\Skills_Lync\Desktop\polyanu\obj\Debug\netcoreapp3.1\polyanu.AssemblyInfoInputs.cache
+C:\Users\Skills_Lync\Desktop\polyanu\obj\Debug\netcoreapp3.1\polyanu.AssemblyInfo.cs
+C:\Users\Skills_Lync\Desktop\polyanu\obj\Debug\netcoreapp3.1\polyanu.dll
+C:\Users\Skills_Lync\Desktop\polyanu\obj\Debug\netcoreapp3.1\polyanu.pdb

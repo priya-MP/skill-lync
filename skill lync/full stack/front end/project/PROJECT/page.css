@@ -1,0 +1,73 @@
+body{
+    background:url("hs1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+   color:silver;
+   
+    
+}
+.navigation ul li {
+    display:inline;
+    float:right;
+    padding-right:30px;
+    
+    
+}
+.navigation ul li a{
+    text-decoration:none;
+    text-shadow:rgb(92, 81, 81);
+    color:rgb(104, 151, 151);
+}
+
+.ul{
+    margin:0;
+    padding: 5px;
+}
+.li a{
+    display:block;
+    width: 70px;
+}
+li a:hover{
+    background-color:rgb(112, 104, 104);
+    color:black;
+}
+li{
+    text-align: center;
+}
+/* .section1 h1{
+    font-size: 30px;
+    image-resolution: 0%;
+    text-align: left;
+    line-height: 300px;
+} */
+img{
+    width:20px;
+    height:20px;
+}
+
+ /* .navigation .dropdown option:hover{
+background-color:rgb(112, 104, 104);
+color:black;
+} */
+
+/* #sky{
+    text-align: left;
+padding-bottom: 12px;
+margin-top: 0px;
+position: fixed; */
+
+
+.section2{
+text-align: center;
+font-style:oblique;
+line-height: 10px;
+margin-top: 500px;
+}
+/* .name{
+    text-align: right;
+} */
+

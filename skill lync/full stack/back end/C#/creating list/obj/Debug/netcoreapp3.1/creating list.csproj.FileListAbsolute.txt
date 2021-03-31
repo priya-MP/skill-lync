@@ -1,0 +1,11 @@
+C:\Users\Skills_Lync\Desktop\creating list\obj\Debug\netcoreapp3.1\creating list.csprojAssemblyReference.cache
+C:\Users\Skills_Lync\Desktop\creating list\obj\Debug\netcoreapp3.1\creating list.AssemblyInfoInputs.cache
+C:\Users\Skills_Lync\Desktop\creating list\obj\Debug\netcoreapp3.1\creating list.AssemblyInfo.cs
+C:\Users\Skills_Lync\Desktop\creating list\bin\Debug\netcoreapp3.1\creating list.exe
+C:\Users\Skills_Lync\Desktop\creating list\bin\Debug\netcoreapp3.1\creating list.deps.json
+C:\Users\Skills_Lync\Desktop\creating list\bin\Debug\netcoreapp3.1\creating list.runtimeconfig.json
+C:\Users\Skills_Lync\Desktop\creating list\bin\Debug\netcoreapp3.1\creating list.runtimeconfig.dev.json
+C:\Users\Skills_Lync\Desktop\creating list\bin\Debug\netcoreapp3.1\creating list.dll
+C:\Users\Skills_Lync\Desktop\creating list\bin\Debug\netcoreapp3.1\creating list.pdb
+C:\Users\Skills_Lync\Desktop\creating list\obj\Debug\netcoreapp3.1\creating list.dll
+C:\Users\Skills_Lync\Desktop\creating list\obj\Debug\netcoreapp3.1\creating list.pdb

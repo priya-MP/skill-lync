@@ -1,0 +1,11 @@
+C:\Users\Skills_Lync\Desktop\ovrrde\obj\Debug\netcoreapp3.1\ovrrde.csprojAssemblyReference.cache
+C:\Users\Skills_Lync\Desktop\ovrrde\obj\Debug\netcoreapp3.1\ovrrde.AssemblyInfoInputs.cache
+C:\Users\Skills_Lync\Desktop\ovrrde\obj\Debug\netcoreapp3.1\ovrrde.AssemblyInfo.cs
+C:\Users\Skills_Lync\Desktop\ovrrde\bin\Debug\netcoreapp3.1\ovrrde.exe
+C:\Users\Skills_Lync\Desktop\ovrrde\bin\Debug\netcoreapp3.1\ovrrde.deps.json
+C:\Users\Skills_Lync\Desktop\ovrrde\bin\Debug\netcoreapp3.1\ovrrde.runtimeconfig.json
+C:\Users\Skills_Lync\Desktop\ovrrde\bin\Debug\netcoreapp3.1\ovrrde.runtimeconfig.dev.json
+C:\Users\Skills_Lync\Desktop\ovrrde\bin\Debug\netcoreapp3.1\ovrrde.dll
+C:\Users\Skills_Lync\Desktop\ovrrde\bin\Debug\netcoreapp3.1\ovrrde.pdb
+C:\Users\Skills_Lync\Desktop\ovrrde\obj\Debug\netcoreapp3.1\ovrrde.dll
+C:\Users\Skills_Lync\Desktop\ovrrde\obj\Debug\netcoreapp3.1\ovrrde.pdb
